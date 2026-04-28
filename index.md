@@ -30,22 +30,16 @@ Unfold ("the App") is committed to protecting your privacy. This Privacy Policy 
 - Basic device information necessary to operate the App (device model, iOS version)
 - No device identifiers or tracking data is collected
 
-### Health Data
-- If you enable Health Kit integration, the App may access your health and fitness data from Apple Health
-- This data remains on your device and is not shared with external services
-
 ## How We Use Your Information
 
 - To provide App functionality (calendar integration, insights, reflection tracking)
 - To communicate with AI providers when you request AI features
 - To improve App performance and user experience
-- To comply with legal obligations
 
 ## Data Security
 
 - Calendar data and personal insights are encrypted using iOS Keychain
 - API keys and OAuth tokens are encrypted and stored securely
-- The App uses HTTPS for all network communications
 - No sensitive financial information is collected or stored
 
 ## Data Retention
@@ -70,12 +64,6 @@ You have the right to:
 - Access your personal data
 - Delete your account and all associated data
 - Revoke calendar access at any time
-- Opt out of optional features
-- Request information about what data we collect
-
-## Children's Privacy
-
-The App is not intended for users under 13 years of age. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information.
 
 ## Changes to This Privacy Policy
 
@@ -85,9 +73,7 @@ We may update this Privacy Policy from time to time. We will notify you of any s
 
 If you have questions about this Privacy Policy or our privacy practices, please contact:
 
-**Perry Wiggins**  
-[Your Email Address]
+VerryPerry  
+verryperrysworld@gmail.com
 
 ---
-
-**Note:** This privacy policy should be reviewed by a legal professional to ensure it complies with applicable laws in your jurisdiction, including GDPR, CCPA, and other privacy regulations.
