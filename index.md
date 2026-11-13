@@ -1,79 +1,69 @@
-# Privacy Policy for Unfold
+# Privacy Policy for Inscend
 
-**Last Updated:** April 2026
+**Last Updated:** November 12, 2026
 
 ## Overview
 
-Unfold ("the App") is committed to protecting your privacy. This Privacy Policy explains how the App collects, uses, and safeguards your information.
+Inscend ("the App") is committed to protecting your privacy. This Privacy Policy explains how the App collects, uses, and safeguards your information.
 
 ## Information We Collect
 
-### Calendar Data
-- When you connect your Google Calendar or Outlook account, the App accesses your calendar events to provide personalized insights and reflection features
-- Calendar data is used locally on your device only
-- Your OAuth tokens are securely stored using iOS Keychain encryption
+### Retired Calendar Connections
+- Inscend no longer connects to or reads Apple, Google, or Outlook calendars
+- Locally stored credentials from earlier calendar integrations are cleared on launch. Previously saved writing remains available
+- You can separately revoke earlier Google or Microsoft account permissions through the provider’s account settings
 
 ### User-Generated Content
-- Insights and reflections you create in the App
+- Reflections and Kept notes in You, People entries, and World Areas, reflections, commitments, and tentative memory you create in the App
 - These are stored locally on your device by default
 - Optional: If you enable cloud sync features, this data may be stored on iCloud servers
+- Saving in People and World preserves authored writing and the exact AI conversation separately. In You, AI perspectives you explicitly choose to keep retain their exact source and provider provenance separately from your writing. Eligible saved conversations and perspectives are included in optional iCloud sync and backups
 
-### AI Provider Communication
-- When you use AI features (Claude, OpenAI, Gemini), your prompts and responses are sent to the respective AI provider's servers
-- Each AI provider has its own privacy policy:
-  - Claude: https://www.anthropic.com/privacy
-  - OpenAI: https://openai.com/privacy
-  - Google Gemini: https://support.google.com/gemini/answer/13594961
-- The App does not store your AI conversations—they exist only in the provider's systems per their policies
+### User-Initiated Exports
+- Inscend can create a complete, portable JSON backup when you explicitly request one in Settings
+- Complete backups include available You, People, and World records, saved media, saved AI conversations or source-backed memory, and user preferences. They never include AI provider credentials, OAuth tokens, biometric state, notification authorization, active timer sessions, caches, or Demo Mode data
+- Prepared export files use iOS file protection and are removed when you rebuild the export or leave its Settings surface. A copy you share is governed by the destination you choose and its privacy practices
 
-### Device Information
-- Basic device information necessary to operate the App (device model, iOS version)
-- No device identifiers or tracking data is collected
+### Optional AI
+
+- On-Device AI runs supported generation locally. Writing and saving work with AI off.
+- For cloud AI, you supply your own API key and explicitly allow sharing with the selected provider in AI Settings. Inscend sends requests directly to that provider over HTTPS. The key authenticates requests, including model lookups and connection tests; it is not included in exports or iCloud sync.
+- Generation requests can include your message, prior conversation turns, instructions and selected topics. Depending on the feature, they can also include profile details, saved reflections, tentative memory, or a World Area and its active commitment. AI Settings describes the context each feature uses. Saving does not send an AI request.
+- To stop future requests to a provider, select it in AI Settings and choose **Revoke cloud sharing**. You can also turn AI off or switch to On-Device AI to stop cloud generation. Permission is stored on the device and is not restored from a backup or synced through iCloud.
+- Providers process and may retain transmitted content under their API terms and your provider account settings. Review these before sharing sensitive writing: [Anthropic Claude API retention](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data), [OpenAI API data controls](https://developers.openai.com/api/docs/guides/your-data), and [Google Gemini API terms](https://ai.google.dev/gemini-api/terms).
+
+- For Gemini, use an API key tied to a Google Cloud project with active billing. Where Google’s unpaid terms apply, it may use inputs and outputs to improve its products and have human reviewers process them. Google instructs users to keep personal, confidential, and sensitive information out of unpaid requests. Inscend cannot verify your Google billing configuration.
 
 ## How We Use Your Information
 
-- To provide App functionality (calendar integration, insights, reflection tracking)
-- To communicate with AI providers when you request AI features
-- To improve App performance and user experience
+Inscend uses your information to provide the features you choose, including writing and revisiting reflections, optional sync, exports, and AI requests. Inscend does not use your journal content for advertising or track you across other companies’ apps or websites.
 
 ## Data Security
 
-- Calendar data and personal insights are encrypted using iOS Keychain
-- API keys and OAuth tokens are encrypted and stored securely
+- Reflections in You, People, and World are stored in the app's local data store and protected by iOS device security
+- Cloud AI API keys are stored in the iOS Keychain
+- The App uses HTTPS for all network communications
 - No sensitive financial information is collected or stored
 
-## Data Retention
+## Retention, Deletion, and Your Choices
 
-- **Local data:** Stored on your device until you delete the App
-- **Cloud data:** Retained according to your account settings (if enabled)
-- **AI conversations:** Managed by each AI provider per their privacy policies
-- **OAuth tokens:** You can revoke access at any time through your account settings or the respective calendar provider's settings
+- **On your device:** You can delete individual items or use **Erase all Inscend data on this device** in Privacy settings. You can export a copy of your saved data before erasing it.
+- **iCloud:** Apple stores synced records when you enable iCloud sync. If sync is active for the current launch, erasing your data queues deletions for iCloud; keep the app open while it syncs. Erasing a local-only store does not delete records already in iCloud. Turning off sync stops further syncing and does not itself erase existing cloud records.
+- **Exports and AI providers:** In-app deletion does not remove copies you previously shared or data already sent to an AI provider. Use the destination’s controls or contact the provider to request deletion of those copies.
+- **Support:** If you email us, we receive your email address and whatever you choose to include so we can respond. You can contact us at the address below to ask about or request deletion of information you sent us.
 
-## Third-Party Services
+## Children's Privacy
 
-The App may use or integrate with third-party services:
-- **Google Calendar**: Requires OAuth authentication
-- **Microsoft Outlook**: Requires OAuth authentication
-- **AI Providers** (Claude, OpenAI, Google Gemini): API integrations for AI features
-
-These services have their own privacy policies that govern how they handle your data.
-
-## Your Rights
-
-You have the right to:
-- Access your personal data
-- Delete your account and all associated data
-- Revoke calendar access at any time
+The App is not intended for users under 13 years of age. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information.
 
 ## Changes to This Privacy Policy
 
-We may update this Privacy Policy from time to time. We will notify you of any significant changes by updating the "Last Updated" date at the top of this policy.
+We may update this Privacy Policy from time to time. The date at the top shows when this policy was last revised.
 
 ## Contact Us
 
 If you have questions about this Privacy Policy or our privacy practices, please contact:
 
-VerryPerry  
-verryperrysworld@gmail.com
+**Perry Wiggins**
 
----
+[verryperrysworld@gmail.com](mailto:verryperrysworld@gmail.com)
