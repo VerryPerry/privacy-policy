@@ -8,11 +8,6 @@ Inscend ("the App") is committed to protecting your privacy. This Privacy Policy
 
 ## Information We Collect
 
-### Retired Calendar Connections
-- Inscend no longer connects to or reads Apple, Google, or Outlook calendars
-- Locally stored credentials from earlier calendar integrations are cleared on launch. Previously saved writing remains available
-- You can separately revoke earlier Google or Microsoft account permissions through the provider’s account settings
-
 ### User-Generated Content
 - Reflections and Kept notes in You, People entries, and World Areas, reflections, commitments, and tentative memory you create in the App
 - These are stored locally on your device by default
@@ -52,18 +47,13 @@ Inscend uses your information to provide the features you choose, including writ
 - **Exports and AI providers:** In-app deletion does not remove copies you previously shared or data already sent to an AI provider. Use the destination’s controls or contact the provider to request deletion of those copies.
 - **Support:** If you email us, we receive your email address and whatever you choose to include so we can respond. You can contact us at the address below to ask about or request deletion of information you sent us.
 
-## Children's Privacy
-
-The App is not intended for users under 13 years of age. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information.
-
 ## Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time. The date at the top shows when this policy was last revised.
 
-## Contact Us
+## Contact Information
 
 If you have questions about this Privacy Policy or our privacy practices, please contact:
 
-**Perry Wiggins**
-
+**Verry Perry**  
 [verryperrysworld@gmail.com](mailto:verryperrysworld@gmail.com)
